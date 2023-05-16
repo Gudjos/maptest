@@ -4,18 +4,29 @@
 }
 
 body{
-    background-color: #01171b;
+    background-color: #7685b1;
 }
 
+svg {
+    cursor: url('pin.png'), auto;
+    fill: aliceblue;
+  }
+
 svg path{
-    fill: #00394f;
-    stroke: #eee;
+    fill: #b9e47c;
+    stroke: #000000;
     stroke-width: .25;
 }
 
 svg path:hover {
     fill: #006284;
-    transition: 0.6s;
+    transition: 0.3s;
     cursor: pointer;
 
 }
+
+.flag {
+    fill: red;
+    stroke: black;
+    stroke-width: 1px;
+  }
